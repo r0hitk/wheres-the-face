@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wheres-the-face/static/css/main.34cefbc7.chunk.css",
+    "main.js": "/wheres-the-face/static/js/main.bdb234f3.chunk.js",
+    "main.js.map": "/wheres-the-face/static/js/main.bdb234f3.chunk.js.map",
+    "runtime-main.js": "/wheres-the-face/static/js/runtime-main.4a2e799b.js",
+    "runtime-main.js.map": "/wheres-the-face/static/js/runtime-main.4a2e799b.js.map",
+    "static/css/2.31461e4f.chunk.css": "/wheres-the-face/static/css/2.31461e4f.chunk.css",
+    "static/js/2.f277a382.chunk.js": "/wheres-the-face/static/js/2.f277a382.chunk.js",
+    "static/js/2.f277a382.chunk.js.map": "/wheres-the-face/static/js/2.f277a382.chunk.js.map",
+    "static/js/3.feb966bc.chunk.js": "/wheres-the-face/static/js/3.feb966bc.chunk.js",
+    "static/js/3.feb966bc.chunk.js.map": "/wheres-the-face/static/js/3.feb966bc.chunk.js.map",
+    "index.html": "/wheres-the-face/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/wheres-the-face/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.34cefbc7.chunk.css.map": "/wheres-the-face/static/css/main.34cefbc7.chunk.css.map",
+    "static/js/2.f277a382.chunk.js.LICENSE.txt": "/wheres-the-face/static/js/2.f277a382.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a2e799b.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.f277a382.chunk.js",
+    "static/css/main.34cefbc7.chunk.css",
+    "static/js/main.bdb234f3.chunk.js"
+  ]
+}
