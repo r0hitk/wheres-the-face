@@ -1,4 +1,5 @@
 import React from "react";
+import "./SignIn.css";
 
 class SignIn extends React.Component {
   constructor(props) {
@@ -22,7 +23,7 @@ class SignIn extends React.Component {
   };
 
   onSubmitSignin = () => {
-    console.log(this.state);
+    //console.log(this.state);
     fetch("https://frozen-scrubland-61646.herokuapp.com/signin", {
       method: "post",
       headers: { "Content-Type": "application/json" },
@@ -33,7 +34,7 @@ class SignIn extends React.Component {
     })
       .then((response) => response.json())
       .then((user) => {
-        console.log(user);
+        //console.log(user);
         if (user.id) {
           this.props.loadUser(user);
           this.props.onRouteChange("home");
@@ -48,7 +49,7 @@ class SignIn extends React.Component {
         <main className="pa4 black-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-              <legend className="f1 fw6 ph0 mh0">Sign In</legend>
+              <legend className="signinTxt f1 fw6 ph0 mh0">Sign In</legend>
               <div className="mt3">
                 <label className="db fw6 lh-copy f6" htmlFor="email-address">
                   Email
